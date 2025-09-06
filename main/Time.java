@@ -1,6 +1,7 @@
 package LocalRepo.main;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class Time {
@@ -11,6 +12,8 @@ public class Time {
 
         LocalDate ld = LocalDate.now();
         System.out.println(ld);
+
+        System.out.println(LocalDateTime.now());
     }
     
     

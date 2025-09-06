@@ -10,7 +10,7 @@ class Thread1 implements Runnable{
 
 public class MyThread {
     public static void main(String[] args) {
-        Thread1 t1 = new Thread();
+        Thread1 t1 = new Thread1();
         Thread t = new Thread(t1);
         
     }
